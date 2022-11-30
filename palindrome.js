@@ -1,11 +1,12 @@
 \\check palindrome
-
+let str="namani";
 
 let rev="";
-    for(let i=N-1;i<=0;i--){
+    for(let i=((str.length)-1);i>=0;i--)
+    {
         rev+=str[i];
     }
-    if (str=rev){
+    if (str==rev){
         console.log("Yes");
     }
     else {
